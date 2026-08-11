@@ -1,0 +1,6 @@
+{:repo/id "cloud-itonami/nist"
+ :repo/plane :role
+ :repo/role :security-posture-actor
+ :repo/compatibility-identities ["did:web:nist.etzhayyim.com"
+                                 "com.etzhayyim.apps.nist.*"]
+ :repo/bounded-away-from ["kotoba-lang/org-nist-sha2"]}
