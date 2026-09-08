@@ -10,7 +10,7 @@
   These tests carry their own literals on purpose. When a literal here has to
   change, that change is the decision — it should cost a diff, not pass in
   silence."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [clojure.test :refer [deftest is testing]]
             [nist.murakumo :as m]))
 
