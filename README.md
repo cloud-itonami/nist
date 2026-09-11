@@ -10,4 +10,4 @@ Reusable NIST primitives remain separate in `kotoba-lang` repositories such as
 `org-nist-sha2`; this repository owns assessment, gap-analysis, and posture
 workflows rather than the underlying standards implementation.
 
-Run the deterministic suite with `clojure -M:test`.
+Run the deterministic suite with `kbb -M:test`.

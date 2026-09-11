@@ -1,6 +1,6 @@
 (ns run-tests
   "JVM-free runner for the nist actor contract (CLAUDE.md runtime order puts
-  nbb above the JVM). `clojure -M:test` runs the same .cljc suites."
+  nbb above the JVM). `kbb -M:test` runs the same .cljc suites."
   (:require [clojure.test :as t]
             [nist.murakumo-test]
             [nist.boundary-test]))
